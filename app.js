@@ -19,11 +19,17 @@ toggle.addEventListener('click', function() {
 
 window.addEventListener('scroll', () => {
     console.log(window.scrollY)
-    if (window.scrollY >= 400) {
+    if (window.innerWidth >= 991){
+        if (window.scrollY >= 400) {
+            ensembles.classList.add('show');
+        } else{
+            ensembles.classList.remove('show');
+    }} else {
+        if (window.scrollY >= 10) {
         ensembles.classList.add('show');
     } else{
         ensembles.classList.remove('show');
-    }
+    }}
     if (window.scrollY >= 900) {
        img_kineo.classList.add('show');
     } else{
@@ -39,6 +45,7 @@ window.addEventListener('scroll', () => {
     } else{
        img_osteo.classList.remove('show');
     } 
+    
     if (window.scrollY >= 3400) {
         cabinet.classList.add('show');
         telephone.classList.add('show');
