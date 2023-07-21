@@ -544,12 +544,14 @@ nav ul li a:hover{
     }
 
     .menu{
+        width: 100%;
         opacity: 0.95;
         z-index: 10;
         align-items: center;
+        text-align: center;
         margin: 0;
         display: flex;
-        position: absolute;
+        position: fixed;
         top:0;
         left:0;
         right: 0;
@@ -557,9 +559,16 @@ nav ul li a:hover{
         background-color: rgb(224, 224, 224);
         flex-direction: column;
         padding: 2rem;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         transform: translateX(-100%);
         transition: 1s;
+    }
+    .menu li a{
+        width: 400;
+        padding-top: 30;
+        padding-bottom: 30;
+        margin-top: 80px;
+        margin-bottom: 30px;
     }
     .open nav{
         justify-content: right;
