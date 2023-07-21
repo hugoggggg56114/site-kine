@@ -564,6 +564,7 @@ nav ul li a:hover{
         transition: 1s;
     }
     .menu li a{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         width: 400;
         padding-top: 30;
         padding-bottom: 30;
