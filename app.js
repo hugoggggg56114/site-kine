@@ -9,7 +9,9 @@ const cabinet = document.querySelector('.bloc-rencontrer-cabinet');
 const telephone = document.querySelector('.bloc-rencontrer-telephone');
 const email = document.querySelector('.bloc-rencontrer-email');
 const form_cartes1 = document.querySelector('.form-cartes');
-
+const massage = document.querySelector('.massage');
+const marche = document.querySelector('.marche');
+const coaching = document.querySelector('.coaching');
 
 
 
@@ -55,9 +57,21 @@ window.addEventListener('scroll', () => {
         telephone.classList.remove('show');
         email.classList.remove('show');
      } 
+
      
 });
 
+window.addEventListener('scroll', () => {
+    if (window.scrollY >= 800) {
+        massage.classList.add('show');
+        marche.classList.add('show');
+        coaching.classList.add('show');
+     } else{
+        massage.classList.remove('show');
+        marche.classList.remove('show');
+        coaching.classList.remove('show');
+     } 
+})
 
 window.addEventListener('pageshow', () => {
     rectangle.classList.add('show');
@@ -65,3 +79,18 @@ window.addEventListener('pageshow', () => {
 window.addEventListener('pageshow', () => {
     form_cartes1.classList.add('show');
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
