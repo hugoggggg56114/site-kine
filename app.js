@@ -94,7 +94,7 @@ if (page == "accueil.html") {
     });
 }
 
-if (page == "kineo.html") {
+if (page == "kineo.html" || page == "mouveo.html") {
     window.addEventListener('pageshow', () => {
         form_cartes1.classList.add('show');
     });
@@ -111,7 +111,7 @@ if (page == "kineo.html") {
 
 
 
-if (page == "kineo.html") {
+if (page == "kineo.html" || page == "mouveo.html") {
 
     var slideIndex = 1;
     showDivs(slideIndex);
