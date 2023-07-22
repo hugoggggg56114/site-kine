@@ -885,8 +885,8 @@ nav ul li a:hover{
     .photos_button_suiv{
         font-size: 25;
     }
-    .mySlides{
-        width: 750px;
+    .photos_content img{
+        width: 500px;
     }
 
 }
