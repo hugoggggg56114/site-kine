@@ -1,11 +1,12 @@
 <DOCTYPE html>
     <html lang="fr">
+    <head>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="app.js" defer></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@650&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <head>
     <meta charset="UTF-8">
     <title>Cabinet - Kinéo</title>
     <meta name="description" content="Cabinet de kinesisthérapie, ostéopathie et remise en forme situé au Rove.">
@@ -75,8 +76,21 @@
             <div class="text-formes"></div>
             </div>
             <h1>L'ÉQUIPE KINÉO :</h1>
-            
         </section>
+        
+        <section class="photos_content">
+            <div>
+              <img class="mySlides" src="images/DSC-1304.JPG" style="width:500px">
+              <img class="mySlides" src="images/DSC-1341.JPG" style="width:500px">
+              <img class="mySlides" src="images/DSC-1329.JPG" style="width:500px">
+            </div>
+            
+            <div class="photos_all_buttons">
+              <div class="w3-section">
+                <button class="photos_button_suiv" onclick="plusDivs(-1)">❮ Prec</button>
+                <button class="photos_button_suiv" onclick="plusDivs(1)">Suiv ❯</button>
+            </section>
+        
         <footer>
             <section class="footer">
                 <div class="footer-logos">
@@ -92,7 +106,6 @@
                 </div>
             </section>
         </footer>
-        <script src="app.js"></script>
     </body>
     
     </html>
