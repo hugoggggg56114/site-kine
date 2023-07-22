@@ -872,6 +872,11 @@ nav ul li a:hover{
     .rectangle-gris{
         margin-bottom: 50px;
     }
+    .photos_button_suiv:hover{
+        color: #fff;
+        box-shadow: 0;
+        transform: translateY(-0);
+    }
 
 }
 
