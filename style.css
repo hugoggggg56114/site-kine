@@ -556,6 +556,11 @@ nav ul li a:hover{
   transition: 200ms opacity ease-in-out;
   transition-delay: 200ms;
 }
+
+.mySlides{
+    display: block;
+    width: 500px;
+}
   
 
 @media all and (max-width: 991px) {
@@ -874,8 +879,14 @@ nav ul li a:hover{
     }
     .photos_button_suiv:hover{
         color: #fff;
-        box-shadow: 0;
+        box-shadow: rgba(0, 0, 0) 0 0 0;
         transform: translateY(-0);
+    }
+    .photos_button_suiv{
+        font-size: 25;
+    }
+    .mySlides{
+        width: 750px;
     }
 
 }
