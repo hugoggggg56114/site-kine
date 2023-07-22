@@ -514,17 +514,49 @@ nav ul li a:hover{
 
 
 
+.photos_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
 
+.photos_button_suiv{
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14.5px;
+    font-weight: 600;
+    margin: 0;
+    padding: 1em 2.3em;
+    transition: all 500ms cubic-bezier(.23, 1, 0.32, 1);
+    margin-top: 10px;
+    background-color: #24252A;
+    border:rgba(0, 0, 0, 0.25)
+}
 
+.photos_button_suiv:hover{
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-5px);
+}
+.photo_desc_content{
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
 
-
-
-
-
-
-
-
-
+  
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 200ms opacity ease-in-out;
+  transition-delay: 200ms;
+}
+  
 
 @media all and (max-width: 991px) {
     nav ul li a{
@@ -564,7 +596,6 @@ nav ul li a:hover{
         transition: 1s;
     }
     .menu li a{
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         width: 400;
         padding-top: 30;
         padding-bottom: 30;
